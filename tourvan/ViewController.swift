@@ -33,12 +33,12 @@ class ViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSo
     }
     
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
-        print(locationData[row])
         UserDefaults.standard.set(locationData[row], forKey: "location")
     }
     
     override func viewWillAppear(_ animated: Bool) {
         locationData = ["Science World", "Gastown", "Whistler", "Vancouver lookout", "Grouse Grind", "Museum of Vancouver"]
+        UserDefaults.standard.set("Science World", forKey: "location")
         locationPicker?.reloadAllComponents()
     }
 

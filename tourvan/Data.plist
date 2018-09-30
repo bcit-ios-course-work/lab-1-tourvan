@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Gastown</key>
+	<dict>
+		<key>description</key>
+		<string>Lively Gastown is known for its whistling Steam Clock and mix of souvenir shops, indie art galleries and decor stores in Victorian buildings. A trendy food and drink scene includes chic cocktail lounges and restaurants serving everything from gourmet sandwiches to local seafood. Hip eateries also dot the neighboring Downtown Eastside area, while the up-and-coming Railtown district is home to edgy fashion studios.</string>
+		<key>image</key>
+		<string>gastown.jpg</string>
+		<key>name</key>
+		<string>Gastown</string>
+	</dict>
+	<key>Grouse Grind</key>
+	<dict>
+		<key>description</key>
+		<string>Grouse Grind is one of the North Shore Mountains of the Pacific Ranges in the District Municipality of North Vancouver, British Columbia, Canada. With a maximum elevation of over 1,200 m (4,100 feet) at its peak, the mountain is the site of an alpine ski area, Grouse Mountain Resort, which overlooks Greater Vancouver has four chairlifts servicing 33 runs. In the summer, Grouse Mountain Resort features lumberjack shows.</string>
+		<key>image</key>
+		<string>grouse-grind.jpg</string>
+		<key>name</key>
+		<string>Grouse Grind</string>
+	</dict>
+	<key>Museum of Vancouver</key>
+	<dict>
+		<key>description</key>
+		<string>The Museum of Vancouver is an award-winning civic history museum located in Vanier Park, Vancouver, British Columbia. The MOV is the largest civic museum in Canada and the oldest museum in Vancouver.</string>
+		<key>image</key>
+		<string>museum-of-vancouver.jpeg</string>
+		<key>name</key>
+		<string>Museum of Vancouver</string>
+	</dict>
+	<key>Science World</key>
+	<dict>
+		<key>description</key>
+		<string>Science World at Telus World of Science, Vancouver is a science centre run by a not-for-profit organization in Vancouver, British Columbia, Canada. It is located at the end of False Creek, and features many permanent interactive exhibits and displays, as well as areas with varying topics throughout the years. </string>
+		<key>image</key>
+		<string>science-world.jpg</string>
+		<key>name</key>
+		<string>Science World</string>
+	</dict>
+	<key>Vancouver lookout</key>
+	<dict>
+		<key>description</key>
+		<string>Sightseers ascend this tower in a glass elevator to an observation deck with 360° views of the city.</string>
+		<key>image</key>
+		<string>vancouver-lookout.jpg</string>
+		<key>name</key>
+		<string>Vancouver lookout</string>
+	</dict>
+	<key>Whistler</key>
+	<dict>
+		<key>description</key>
+		<string>Whistler is a town north of Vancouver, British Columbia, that's home to Whistler Blackcomb, one of the largest ski resorts in North America. Besides skiing and snowboarding, the area offers snowshoeing, tobogganing and ski jumping at the Olympic Park, a venue for the 2010 Vancouver Winter Olympics. The hub of Whistler is a compact, chalet-style pedestrian village at the base of Whistler and Blackcomb mountains.</string>
+		<key>image</key>
+		<string>whistler.jpg</string>
+		<key>name</key>
+		<string>Whistler</string>
+	</dict>
+</dict>
+</plist>

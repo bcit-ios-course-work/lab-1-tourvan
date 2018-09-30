@@ -15,12 +15,12 @@
 		80D22955215ADEC40076FBA1 /* tourvanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D22954215ADEC40076FBA1 /* tourvanTests.swift */; };
 		80D22960215ADEC40076FBA1 /* tourvanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D2295F215ADEC40076FBA1 /* tourvanUITests.swift */; };
 		80D2296E215AE2B30076FBA1 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80D2296D215AE2B30076FBA1 /* DetailViewController.swift */; };
-		80D22983215AEE8B0076FBA1 /* science-world.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80D2297D215AEE8A0076FBA1 /* science-world.jpg */; };
-		80D22984215AEE8B0076FBA1 /* gastown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80D2297E215AEE8A0076FBA1 /* gastown.jpg */; };
-		80D22985215AEE8B0076FBA1 /* vancouver-lookout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80D2297F215AEE8B0076FBA1 /* vancouver-lookout.jpg */; };
-		80D22986215AEE8B0076FBA1 /* whistler.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80D22980215AEE8B0076FBA1 /* whistler.jpg */; };
-		80D22987215AEE8B0076FBA1 /* museum-of-vancouver.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 80D22981215AEE8B0076FBA1 /* museum-of-vancouver.jpeg */; };
-		80D22988215AEE8B0076FBA1 /* grouse-grind.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80D22982215AEE8B0076FBA1 /* grouse-grind.jpg */; };
+		80DF4D432161247700ACB82F /* whistler.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80DF4D3D2161247600ACB82F /* whistler.jpg */; };
+		80DF4D442161247700ACB82F /* grouse-grind.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80DF4D3E2161247600ACB82F /* grouse-grind.jpg */; };
+		80DF4D452161247700ACB82F /* science-world.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80DF4D3F2161247600ACB82F /* science-world.jpg */; };
+		80DF4D462161247700ACB82F /* vancouver-lookout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80DF4D402161247600ACB82F /* vancouver-lookout.jpg */; };
+		80DF4D472161247700ACB82F /* museum-of-vancouver.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 80DF4D412161247700ACB82F /* museum-of-vancouver.jpeg */; };
+		80DF4D482161247700ACB82F /* gastown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80DF4D422161247700ACB82F /* gastown.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,12 +55,12 @@
 		80D2295F215ADEC40076FBA1 /* tourvanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tourvanUITests.swift; sourceTree = "<group>"; };
 		80D22961215ADEC40076FBA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80D2296D215AE2B30076FBA1 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
-		80D2297D215AEE8A0076FBA1 /* science-world.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "science-world.jpg"; sourceTree = "<group>"; };
-		80D2297E215AEE8A0076FBA1 /* gastown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gastown.jpg; sourceTree = "<group>"; };
-		80D2297F215AEE8B0076FBA1 /* vancouver-lookout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "vancouver-lookout.jpg"; sourceTree = "<group>"; };
-		80D22980215AEE8B0076FBA1 /* whistler.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whistler.jpg; sourceTree = "<group>"; };
-		80D22981215AEE8B0076FBA1 /* museum-of-vancouver.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "museum-of-vancouver.jpeg"; sourceTree = "<group>"; };
-		80D22982215AEE8B0076FBA1 /* grouse-grind.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "grouse-grind.jpg"; sourceTree = "<group>"; };
+		80DF4D3D2161247600ACB82F /* whistler.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = whistler.jpg; sourceTree = "<group>"; };
+		80DF4D3E2161247600ACB82F /* grouse-grind.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "grouse-grind.jpg"; sourceTree = "<group>"; };
+		80DF4D3F2161247600ACB82F /* science-world.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "science-world.jpg"; sourceTree = "<group>"; };
+		80DF4D402161247600ACB82F /* vancouver-lookout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "vancouver-lookout.jpg"; sourceTree = "<group>"; };
+		80DF4D412161247700ACB82F /* museum-of-vancouver.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "museum-of-vancouver.jpeg"; sourceTree = "<group>"; };
+		80DF4D422161247700ACB82F /* gastown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gastown.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 		80D2293E215ADEC20076FBA1 /* tourvan */ = {
 			isa = PBXGroup;
 			children = (
-				80D2297C215AEE640076FBA1 /* images */,
+				80DF4D3C2161246D00ACB82F /* images */,
 				80D2293F215ADEC20076FBA1 /* AppDelegate.swift */,
 				80D22941215ADEC20076FBA1 /* ViewController.swift */,
 				80D22943215ADEC20076FBA1 /* Main.storyboard */,
@@ -141,18 +141,17 @@
 			path = tourvanUITests;
 			sourceTree = "<group>";
 		};
-		80D2297C215AEE640076FBA1 /* images */ = {
+		80DF4D3C2161246D00ACB82F /* images */ = {
 			isa = PBXGroup;
 			children = (
-				80D2297E215AEE8A0076FBA1 /* gastown.jpg */,
-				80D22982215AEE8B0076FBA1 /* grouse-grind.jpg */,
-				80D22981215AEE8B0076FBA1 /* museum-of-vancouver.jpeg */,
-				80D2297D215AEE8A0076FBA1 /* science-world.jpg */,
-				80D2297F215AEE8B0076FBA1 /* vancouver-lookout.jpg */,
-				80D22980215AEE8B0076FBA1 /* whistler.jpg */,
+				80DF4D422161247700ACB82F /* gastown.jpg */,
+				80DF4D3E2161247600ACB82F /* grouse-grind.jpg */,
+				80DF4D412161247700ACB82F /* museum-of-vancouver.jpeg */,
+				80DF4D3F2161247600ACB82F /* science-world.jpg */,
+				80DF4D402161247600ACB82F /* vancouver-lookout.jpg */,
+				80DF4D3D2161247600ACB82F /* whistler.jpg */,
 			);
-			name = images;
-			path = "New Group";
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,15 +258,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80D22987215AEE8B0076FBA1 /* museum-of-vancouver.jpeg in Resources */,
+				80DF4D472161247700ACB82F /* museum-of-vancouver.jpeg in Resources */,
+				80DF4D462161247700ACB82F /* vancouver-lookout.jpg in Resources */,
 				80D2294A215ADEC40076FBA1 /* LaunchScreen.storyboard in Resources */,
+				80DF4D432161247700ACB82F /* whistler.jpg in Resources */,
 				80D22947215ADEC40076FBA1 /* Assets.xcassets in Resources */,
-				80D22984215AEE8B0076FBA1 /* gastown.jpg in Resources */,
-				80D22985215AEE8B0076FBA1 /* vancouver-lookout.jpg in Resources */,
-				80D22986215AEE8B0076FBA1 /* whistler.jpg in Resources */,
 				80D22945215ADEC20076FBA1 /* Main.storyboard in Resources */,
-				80D22983215AEE8B0076FBA1 /* science-world.jpg in Resources */,
-				80D22988215AEE8B0076FBA1 /* grouse-grind.jpg in Resources */,
+				80DF4D482161247700ACB82F /* gastown.jpg in Resources */,
+				80DF4D442161247700ACB82F /* grouse-grind.jpg in Resources */,
+				80DF4D452161247700ACB82F /* science-world.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

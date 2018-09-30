@@ -111,14 +111,14 @@
 		80D2293E215ADEC20076FBA1 /* tourvan */ = {
 			isa = PBXGroup;
 			children = (
-				80DF4D3C2161246D00ACB82F /* images */,
-				80D2293F215ADEC20076FBA1 /* AppDelegate.swift */,
-				80D22941215ADEC20076FBA1 /* ViewController.swift */,
-				80D22943215ADEC20076FBA1 /* Main.storyboard */,
-				80D22946215ADEC40076FBA1 /* Assets.xcassets */,
-				80D22948215ADEC40076FBA1 /* LaunchScreen.storyboard */,
 				80D2294B215ADEC40076FBA1 /* Info.plist */,
+				80D2293F215ADEC20076FBA1 /* AppDelegate.swift */,
 				80D2296D215AE2B30076FBA1 /* DetailViewController.swift */,
+				80D22941215ADEC20076FBA1 /* ViewController.swift */,
+				80D22946215ADEC40076FBA1 /* Assets.xcassets */,
+				80DF4D3C2161246D00ACB82F /* images */,
+				80D22948215ADEC40076FBA1 /* LaunchScreen.storyboard */,
+				80D22943215ADEC20076FBA1 /* Main.storyboard */,
 			);
 			path = tourvan;
 			sourceTree = "<group>";

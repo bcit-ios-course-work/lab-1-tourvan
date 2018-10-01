@@ -21,6 +21,7 @@
 		80DF4D462161247700ACB82F /* vancouver-lookout.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80DF4D402161247600ACB82F /* vancouver-lookout.jpg */; };
 		80DF4D472161247700ACB82F /* museum-of-vancouver.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 80DF4D412161247700ACB82F /* museum-of-vancouver.jpeg */; };
 		80DF4D482161247700ACB82F /* gastown.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 80DF4D422161247700ACB82F /* gastown.jpg */; };
+		80DF4D8B216190AB00ACB82F /* Data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 80DF4D8A216190AB00ACB82F /* Data.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		80DF4D402161247600ACB82F /* vancouver-lookout.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "vancouver-lookout.jpg"; sourceTree = "<group>"; };
 		80DF4D412161247700ACB82F /* museum-of-vancouver.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "museum-of-vancouver.jpeg"; sourceTree = "<group>"; };
 		80DF4D422161247700ACB82F /* gastown.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = gastown.jpg; sourceTree = "<group>"; };
+		80DF4D8A216190AB00ACB82F /* Data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Data.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,14 +113,15 @@
 		80D2293E215ADEC20076FBA1 /* tourvan */ = {
 			isa = PBXGroup;
 			children = (
-				80DF4D3C2161246D00ACB82F /* images */,
+				80DF4D8A216190AB00ACB82F /* Data.plist */,
 				80D2293F215ADEC20076FBA1 /* AppDelegate.swift */,
-				80D22941215ADEC20076FBA1 /* ViewController.swift */,
-				80D22943215ADEC20076FBA1 /* Main.storyboard */,
 				80D22946215ADEC40076FBA1 /* Assets.xcassets */,
-				80D22948215ADEC40076FBA1 /* LaunchScreen.storyboard */,
-				80D2294B215ADEC40076FBA1 /* Info.plist */,
 				80D2296D215AE2B30076FBA1 /* DetailViewController.swift */,
+				80DF4D3C2161246D00ACB82F /* images */,
+				80D2294B215ADEC40076FBA1 /* Info.plist */,
+				80D22948215ADEC40076FBA1 /* LaunchScreen.storyboard */,
+				80D22943215ADEC20076FBA1 /* Main.storyboard */,
+				80D22941215ADEC20076FBA1 /* ViewController.swift */,
 			);
 			path = tourvan;
 			sourceTree = "<group>";
@@ -264,6 +267,7 @@
 				80DF4D432161247700ACB82F /* whistler.jpg in Resources */,
 				80D22947215ADEC40076FBA1 /* Assets.xcassets in Resources */,
 				80D22945215ADEC20076FBA1 /* Main.storyboard in Resources */,
+				80DF4D8B216190AB00ACB82F /* Data.plist in Resources */,
 				80DF4D482161247700ACB82F /* gastown.jpg in Resources */,
 				80DF4D442161247700ACB82F /* grouse-grind.jpg in Resources */,
 				80DF4D452161247700ACB82F /* science-world.jpg in Resources */,

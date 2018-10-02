@@ -10,26 +10,35 @@ import UIKit
 
 class DetailViewController: UIViewController {
     
-    @IBOutlet weak var locationTitle: UILabel!
-    @IBOutlet weak var locationImage: UIImageView!
-    @IBOutlet weak var locationDescription: UITextView!
+    @IBOutlet weak var locationTitle: UILabel?
+    @IBOutlet weak var locationImage: UIImageView?
+    @IBOutlet weak var locationDescription: UITextView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        // TODO @runquest: refactor to smaller methods
+        
+        guard let locationImage = self.locationImage,
+            let locationTitle = self.locationTitle,
+            let locationDescription = self.locationDescription
+        else { return }
+        
         let attraction = UserDefaults.standard.string(forKey: "location")
-        print("attraction: \(String(describing: attraction))")
-        var attractions: [String: [String: String]] = [:]
-        if let path = Bundle.main.path(forResource: "Data", ofType: "plist") {
-            attractions = NSDictionary(contentsOfFile: path) as! [String : [String: String]]
+        
+        guard let path = Bundle.main.path(forResource: "Data", ofType: "plist"),
+            let attractions = NSDictionary(contentsOfFile: path) as? [String : [String: String]] else {
+            return
         }
         
         for (_, value) in attractions {
             
-            if (value["name"]! == attraction) {
-                locationImage.image = UIImage(named: (value["image"]!))
-                locationTitle.text = value["name"]!
-                locationDescription.text = value["description"]!
+            if (value["name"] == attraction) {
+                locationImage.image = UIImage(named: (value["image"] ?? "gastown.jpg"))
+                locationTitle.text = value["name"] ?? "No name"
+
+                let description: String = value["description"] ?? "No description"
+                locationDescription.text = description
             }
             
         }
